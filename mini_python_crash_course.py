@@ -311,9 +311,9 @@ def module_5_logic():
     # or: returns True if EITHER of the statements are True
     # example: x == y or z != w
 
-    5*6 == 30 and 5*7 == 35 # this would be True, because both are True
-    5*8 == 40 and 5*9 == 46 # this would be False, because one is True and one is False
-    5*10 == 49 and 5*11 == 54 # this would be False, because both are False
+    5*6 == 30 or 5*7 == 35 # this would be True, because both are True
+    5*8 == 40 or 5*9 == 46 # this would be True, because one is True and one is False
+    5*10 == 49 or 5*11 == 54 # this would be False, because both are False
 
     # not: inverts the result of any logical or comparison operators
     # example: not(x == y)
